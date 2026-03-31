@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+
+            
+                Console.WriteLine("Hola uasario");
+                Console.Write("¿En que año naciste? :");
+                 int año;
+                    año= Convert.ToInt32( Console.ReadLine());
+
+            int edad = (2026 - año);
+            Console.WriteLine("Si naciste en el año" + año + "tu año actual es " + año + edad);
+
+
+
+
+
+
+
+
+        }
+    }
+}
